@@ -1,0 +1,237 @@
+body {
+  background-color: black;
+  
+  /* https://www.magicpattern.design/tools/css-backgrounds */
+  background-color: #da6140;
+  opacity: 1;
+  background-image: radial-gradient( ellipse farthest-corner at 13px 13px , #000000, #000000 50%, #da6140 50%);
+  background-size: 13px 13px;
+}
+
+
+.BLOCK {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  /* background-color: red; */
+  border-radius: 8px;
+}
+
+/* Nav */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20%;
+  height: 65px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+nav * {
+  height: 80%;
+}
+
+#search {
+  width: 25%;
+  height: 40%;
+  resize: none;
+}
+
+/* See Recipe */
+
+.see-recipe-main {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin: auto auto;
+}
+
+.see-recipe-list li {  
+  padding: 5px; 
+}
+
+.see-recipe-list li::marker {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.recipe a {
+  padding: 10px;
+}
+
+.recipe {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 900px;
+
+  float: left;
+  display: inline;
+}
+
+.seeRecipeSearchList {
+  display: inline;
+  float: right;
+  width: 350px;
+  /* width: 935px; */
+}
+
+.seeRecipeSearchItem {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: white;
+  /* width: 900px; */
+  text-align: left;
+
+  overflow: hidden;
+  float: right;
+  
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Add */
+
+.add-main {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 25px;
+  width: 900px;
+}
+
+.dynamicListItem {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.dynamicListItem input {
+  width: 1000px
+}
+
+#ingredients-list li input {
+  font-size: large;
+}
+
+#instructions-list li textarea {
+  font-size: large;
+}
+
+.minusButton {
+  width: 30px;
+  height: 30px;
+  font-size: large;
+}
+
+.upButton {
+  width: 30px;
+  height: 25px;
+  font-size: medium;
+}
+
+.downButton {
+  width: 30px;
+  height: 25px;
+  font-size: medium;
+}
+
+/* Index */
+
+.recipeListItem {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: white;
+  text-align: left;
+  width: 250px;
+  text-align: center;
+}
+
+.recipeListItem h3 {
+  overflow-wrap: break-word;
+}
+
+.recipe-list-row {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.recipe-list-row-row {
+  overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
+.recipe-list-row-row ul li {
+  display: inline-block;
+}
+
+/* Search */
+.searchItem {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+
+  background-color: white;
+  width: 900px;
+  text-align: left;
+  
+  display: flex;
+  justify-content: flex-start;
+}
+
+.searchItem p {
+  overflow-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 70%;
+  float: left;
+}
+
+.searchList {
+  align-items: center;
+  align-content: center;
+}
+
+.searchImg {
+  width: 30%;
+  float: right;
+  display: inline;
+  align-content: center;
+}
+
+.fakeImg {
+  width: 250px;
+  height: 250px;
+  /* background-color: red; */
+  object-fit: cover;
+
+  border-radius: 8px;
+  margin: 10px;
+}
